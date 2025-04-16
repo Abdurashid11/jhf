@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="div1">
+        <h1>QR Code Generators</h1>
+        <input type="text" id="text" placeholder="url yoki text">
+
+        <div style="margin-bottom: 10px;">
+            <p>Foreground:</p>
+            <input type="color" id="fgColor" value="#000000">
+            <p>Background:</p>
+            <input type="color" id="bgColor" value="#ffffff">
+        </div>
+
+        <div>
+        <button id="generateBtn">QR Code yaratish</button>            
+        </div>
+        <div id="qrcode" class="div2"></div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
